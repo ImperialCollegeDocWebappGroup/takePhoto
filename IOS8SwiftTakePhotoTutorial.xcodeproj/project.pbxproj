@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0272C7F81B28587800B9D80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272C7F71B28587800B9D80E /* AppDelegate.swift */; };
+		0272C7FA1B28587800B9D80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272C7F91B28587800B9D80E /* ViewController.swift */; };
+		0272C7FD1B28587800B9D80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0272C7FB1B28587800B9D80E /* Main.storyboard */; };
+		0272C7FF1B28587800B9D80E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0272C7FE1B28587800B9D80E /* Images.xcassets */; };
+		0272C8021B28587800B9D80E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0272C8001B28587800B9D80E /* LaunchScreen.xib */; };
+		0272C80E1B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272C80D1B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0272C8081B28587800B9D80E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0272C7EA1B28587800B9D80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0272C7F11B28587800B9D80E;
+			remoteInfo = IOS8SwiftTakePhotoTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0272C7F21B28587800B9D80E /* IOS8SwiftTakePhotoTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS8SwiftTakePhotoTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0272C7F61B28587800B9D80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0272C7F71B28587800B9D80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0272C7F91B28587800B9D80E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0272C7FC1B28587800B9D80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0272C7FE1B28587800B9D80E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0272C8011B28587800B9D80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0272C8071B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS8SwiftTakePhotoTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0272C80C1B28587800B9D80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0272C80D1B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS8SwiftTakePhotoTutorialTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0272C7EF1B28587800B9D80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0272C8041B28587800B9D80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0272C7E91B28587800B9D80E = {
+			isa = PBXGroup;
+			children = (
+				0272C7F41B28587800B9D80E /* IOS8SwiftTakePhotoTutorial */,
+				0272C80A1B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests */,
+				0272C7F31B28587800B9D80E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0272C7F31B28587800B9D80E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0272C7F21B28587800B9D80E /* IOS8SwiftTakePhotoTutorial.app */,
+				0272C8071B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0272C7F41B28587800B9D80E /* IOS8SwiftTakePhotoTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				0272C7F71B28587800B9D80E /* AppDelegate.swift */,
+				0272C7F91B28587800B9D80E /* ViewController.swift */,
+				0272C7FB1B28587800B9D80E /* Main.storyboard */,
+				0272C7FE1B28587800B9D80E /* Images.xcassets */,
+				0272C8001B28587800B9D80E /* LaunchScreen.xib */,
+				0272C7F51B28587800B9D80E /* Supporting Files */,
+			);
+			path = IOS8SwiftTakePhotoTutorial;
+			sourceTree = "<group>";
+		};
+		0272C7F51B28587800B9D80E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0272C7F61B28587800B9D80E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0272C80A1B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				0272C80D1B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests.swift */,
+				0272C80B1B28587800B9D80E /* Supporting Files */,
+			);
+			path = IOS8SwiftTakePhotoTutorialTests;
+			sourceTree = "<group>";
+		};
+		0272C80B1B28587800B9D80E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0272C80C1B28587800B9D80E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0272C7F11B28587800B9D80E /* IOS8SwiftTakePhotoTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0272C8111B28587800B9D80E /* Build configuration list for PBXNativeTarget "IOS8SwiftTakePhotoTutorial" */;
+			buildPhases = (
+				0272C7EE1B28587800B9D80E /* Sources */,
+				0272C7EF1B28587800B9D80E /* Frameworks */,
+				0272C7F01B28587800B9D80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOS8SwiftTakePhotoTutorial;
+			productName = IOS8SwiftTakePhotoTutorial;
+			productReference = 0272C7F21B28587800B9D80E /* IOS8SwiftTakePhotoTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0272C8061B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0272C8141B28587800B9D80E /* Build configuration list for PBXNativeTarget "IOS8SwiftTakePhotoTutorialTests" */;
+			buildPhases = (
+				0272C8031B28587800B9D80E /* Sources */,
+				0272C8041B28587800B9D80E /* Frameworks */,
+				0272C8051B28587800B9D80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0272C8091B28587800B9D80E /* PBXTargetDependency */,
+			);
+			name = IOS8SwiftTakePhotoTutorialTests;
+			productName = IOS8SwiftTakePhotoTutorialTests;
+			productReference = 0272C8071B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0272C7EA1B28587800B9D80E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Lin, Jiahao";
+				TargetAttributes = {
+					0272C7F11B28587800B9D80E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					0272C8061B28587800B9D80E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0272C7F11B28587800B9D80E;
+					};
+				};
+			};
+			buildConfigurationList = 0272C7ED1B28587800B9D80E /* Build configuration list for PBXProject "IOS8SwiftTakePhotoTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0272C7E91B28587800B9D80E;
+			productRefGroup = 0272C7F31B28587800B9D80E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0272C7F11B28587800B9D80E /* IOS8SwiftTakePhotoTutorial */,
+				0272C8061B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0272C7F01B28587800B9D80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0272C7FD1B28587800B9D80E /* Main.storyboard in Resources */,
+				0272C8021B28587800B9D80E /* LaunchScreen.xib in Resources */,
+				0272C7FF1B28587800B9D80E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0272C8051B28587800B9D80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0272C7EE1B28587800B9D80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0272C7FA1B28587800B9D80E /* ViewController.swift in Sources */,
+				0272C7F81B28587800B9D80E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0272C8031B28587800B9D80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0272C80E1B28587800B9D80E /* IOS8SwiftTakePhotoTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0272C8091B28587800B9D80E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0272C7F11B28587800B9D80E /* IOS8SwiftTakePhotoTutorial */;
+			targetProxy = 0272C8081B28587800B9D80E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0272C7FB1B28587800B9D80E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0272C7FC1B28587800B9D80E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0272C8001B28587800B9D80E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0272C8011B28587800B9D80E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0272C80F1B28587800B9D80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0272C8101B28587800B9D80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0272C8121B28587800B9D80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOS8SwiftTakePhotoTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0272C8131B28587800B9D80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOS8SwiftTakePhotoTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0272C8151B28587800B9D80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IOS8SwiftTakePhotoTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS8SwiftTakePhotoTutorial.app/IOS8SwiftTakePhotoTutorial";
+			};
+			name = Debug;
+		};
+		0272C8161B28587800B9D80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IOS8SwiftTakePhotoTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS8SwiftTakePhotoTutorial.app/IOS8SwiftTakePhotoTutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0272C7ED1B28587800B9D80E /* Build configuration list for PBXProject "IOS8SwiftTakePhotoTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0272C80F1B28587800B9D80E /* Debug */,
+				0272C8101B28587800B9D80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0272C8111B28587800B9D80E /* Build configuration list for PBXNativeTarget "IOS8SwiftTakePhotoTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0272C8121B28587800B9D80E /* Debug */,
+				0272C8131B28587800B9D80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0272C8141B28587800B9D80E /* Build configuration list for PBXNativeTarget "IOS8SwiftTakePhotoTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0272C8151B28587800B9D80E /* Debug */,
+				0272C8161B28587800B9D80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0272C7EA1B28587800B9D80E /* Project object */;
+}
